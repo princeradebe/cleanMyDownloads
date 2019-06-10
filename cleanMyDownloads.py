@@ -18,12 +18,12 @@ compressedPath  ='C:/Users/radebep/Downloads/Compressed/'
 videoPath       ='C:/Users/radebep/Downloads/Video/'
 #-------------------------------------------------------------
 #File Formats
-audioFormat      = [".mp3",".mp4"]
-documentFormat   = [".doc",".docx",".pdf",".xls","xlsx",".ptt",".pttx",".txt"]
+audioFormat      = [".aac",".flac",".m4a",".mp3",".ogg",".wma",".wav"]
+documentFormat   = [".djvu",".doc",".docx",".epub",".odt",".pdf",".xls","xlsx",".ptt",".pttx",".txt"]
 softwareFormat   = [".exe"]
-photoFormat      = [".jpg",".jpeg",".png",".gif",".psd"]
-compressedFormat = [".zip",".rar"]
-videoFormat      = [".mp2",".mpeg4",".vid",".mkv"]
+photoFormat      = [".bmp",".gif",".ico",".jpg",".jpeg",".png",".psd",".tif",".tiff"]
+compressedFormat = [".7z",".bz2",".gz",".iso",".zip",".rar"]
+videoFormat      = [".avi",".flv",".m4v",".mkv",".mov",".mp4",".mpeg",".mpeg4",".vid",".wmv"]
 #Create folders, if not available to save files (Documents/Applications/Audio/Photos/Compressed Files)
 #Only create folder for existing extensions
 #If the extension does not have a predefined folder name, create folder based on extension definition (Future Feature)
