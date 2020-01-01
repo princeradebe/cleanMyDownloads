@@ -33,7 +33,7 @@ def createFolder(directory):
         if not os.path.exists(directory):   #Check folder availability, create if not available
             os.makedirs(directory)
         else:
-            print(f"{directory} Already Exist")          #
+            print(f"{directory} Already Exist")          
     except OSError:
         print (f'Error: Creating directory. {directory} Folder already exist')
 
